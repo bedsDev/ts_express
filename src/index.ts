@@ -12,7 +12,7 @@ app.get("/*", (req: Request, res: Response) => {
   log(JSON.stringify(req.hostname));
   log(JSON.stringify(req.ip));
   getUser();
-  res.send(`<h1>Hello World: Express and TypeScript</h1>
+  res.send(`<h1>Hello World: Express and TypeScript!</h1>
     <p><b>Hostname</b>: ${req.hostname}</p>  
     <p><b>app</b>: ${req.app}</p>  
     <p><b>baseUrl</b>: ${req.baseUrl}</p>  
